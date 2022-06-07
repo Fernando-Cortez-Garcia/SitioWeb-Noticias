@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.bg {
+    background-position: center center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+body {
+    background: linear-gradient( to right, #1c1c1c, #050505, #000000, #272727, #2d2d2d);
+    background-size: 400% 400%;
+    z-index: 4;
+    color: white;
+    animation: animate-background-gradient 10s infinite ease-in-out;
+}
+
+@keyframes animate-background-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.bg {
+    background-position: center center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contenedorp {
+    margin-top: 7em;
+}
+
+body {
+    /* background: linear-gradient( to right, #1591cb, #ebdfe1, #0c89e2, #ece9eace, #f9f7fb);
+    background-size: 400% 400%; */
+    background: linear-gradient( to right, #4b4b4b, #050505, #000000, #141414, #2d2d2d);
+    background-size: 400% 400%;
+    animation: animate-background-gradient 10s infinite ease-in-out;
+    color: white;
+}
+
+@keyframes animate-background-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

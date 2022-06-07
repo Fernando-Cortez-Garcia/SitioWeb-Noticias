@@ -1,0 +1,12 @@
+.spanv {
+    font-size: 30px;
+}
+
+.carrucel {
+    height: 90%;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+}
