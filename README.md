@@ -35,6 +35,10 @@ a la noticia selecionada muestra la informacion completa.
 ![resposive2](https://user-images.githubusercontent.com/73461084/172283851-8efa9428-d08d-40b4-9247-3b9b1fc25528.png)
 ![footer](https://user-images.githubusercontent.com/73461084/172283863-4daf2122-2df9-4a08-9d77-0bfade55585e.png)
 
+```
+Imagenes Utilizadas solo con fines educativos Todo los derechos reservados a los Autores originales.
+```
+
 
 
 
